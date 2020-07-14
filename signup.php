@@ -66,7 +66,7 @@ if($_SERVER["REQUEST_METHOD"]== "POST") {
   ?>
    <div class="container my-4">
    <h1 class="text-center">Signup to our Website</h1>
-   <form action="/loginsystem/signup.php" method="post" style="display:flex; flex-direction:column; align-items:center;">
+   <form action="/loginsystem/signup.php" method="post" enctype="multipart/form-data" style="display:flex; flex-direction:column; align-items:center;">
   <div class="form-group col-md-6">
     <label for="username">Username</label>
     <input type="text" maxlength = "11" class="form-control" id="username" name="username" aria-describedby="emailHelp">
